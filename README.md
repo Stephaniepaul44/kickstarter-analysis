@@ -11,10 +11,10 @@ The purpose of the analysis is to find trends in the data so that it can be used
 
 ### Analysis of Outcomes Based on Launch Date
 The data provided did not have a column for the year ended. I created on using the YEARS formula. This column helped me break the data down in a pivot table. The pivot table I created filtered only to the theater category. The columns created show the different outcomes: successful, failed and canceled. The rows created show the date created by month. The values are the count of the outcomes. From this pivot table I was able to create a pivot chart (pictured below). The month created is the X axis and the number of outcomes is the Y axis. The successful launches are in blue, the failed launches are in orange and canceled launches are in grey. 
-Theater_Outcomes_vs_Launch.png
+https://github.com/Stephaniepaul44/kickstarter-analysis/blob/master/Theater_Outcomes_vs_Launch.png
 ### Analysis of Outcomes Based on Goals
 From the data provided I analyzed only the plays for this sheet. I used a countif formula to find the number of successful, failed and canceled plays for each dollar amount bracket. They are listed in columns B-D. In column E I did a sum formula to add the number of successful, failed and canceled plays together. In columns F-H I calculated the percentage for each outcome by dividing the number in columns B-D by the number in column E. For example the number of successful campaigns is in column B I divided this by D to get a percentage successful. From the data I calculated with formulas in columns B-H I was able to create a pivot chart (pictured below). The goal amount is the X axis and outcome percentage is the Y axis. The successful launches are in blue, the failed launches are in orange and canceled launches are in grey.
-Outcomes_vs_Goals.png
+https://github.com/Stephaniepaul44/kickstarter-analysis/blob/master/Outcomes_vs_Goals.png
 ### Challenges and Difficulties Encountered
 Some potential challenges with this data analysis would be not filtering the data to theaters for the outcomes based on launch or not looking at the right columns for the countif formula.
 ## Results
